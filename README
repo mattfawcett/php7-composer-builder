@@ -1,1 +1,5 @@
-docker  run -v /path-to-project:/user/src/myapp -it php7-composer-builder
+Install non dev composer dependencies for a PHP project
+
+Intended use as build script for deployment
+
+docker run -v /path/to/project:/user/src/myapp -it mattfawcett/php7-composer-builder
